@@ -42,8 +42,7 @@ in <a href="./examples/maxiconda">examples/maxiconda</a>.
 
 ## Notes:
 
-  * Constructor does not work with `noarch`-Python packages.
-    All conda packages must be available for the platform you are
+  * All conda packages must be available for the platform you are
     building the installer for.
   * An installer created by constructor does not need to include `conda`
     itself.  If you require the ability to use `conda` after installation,
@@ -57,7 +56,7 @@ in <a href="./examples/maxiconda">examples/maxiconda</a>.
     to the file `constructor.yaml`. This provides packages such as
     `m2w64-toolchain` which is a dependency of `theano`. It is best to
     add `/msys2` as `http://repo.anaconda.com/pkgs/msys2`.
-  * Constructor requires conda >=4.5.0
+  * Constructor requires conda >=4.7.10
 
 
 ## Devel
